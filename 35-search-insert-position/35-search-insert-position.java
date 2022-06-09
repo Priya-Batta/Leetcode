@@ -11,14 +11,6 @@ class Solution {
             else 
                 right = mid - 1;
         }
-        System.out.println(mid);
-        if(nums[mid] > target) {
-            if(mid == 0)
-                return 0;
-            else
-                return mid;
-        }
-        else 
-            return (mid + 1);
+        return left;
     }
 }
